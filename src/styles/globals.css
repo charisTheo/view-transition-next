@@ -1,3 +1,5 @@
 img {
 	display: block;
+	view-transition-name: zoom;
+	contain: layout;
 }
