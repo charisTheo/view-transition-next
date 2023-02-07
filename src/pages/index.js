@@ -1,6 +1,6 @@
 import Router from 'next/router'
-import Link from 'next/Link'
-import Image from 'next/Image'
+import Link from 'next/link'
+import Image from 'next/image'
 
 const handleTransition = (e) => {
   if (typeof window) {

@@ -5,11 +5,11 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
+    "start": "npm run build && next start",
     "lint": "next lint"
   },
   "engines": { 
-    "node": "16.16.0" 
+    "node": "^16" 
   },
   "dependencies": {
     "@next/font": "13.1.6",
