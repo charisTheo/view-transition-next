@@ -16,6 +16,7 @@ export default function Home() {
       <h1>Hello world</h1>
       <Link onClick={ handleTransition } href="/about">About</Link>
       <Image 
+        loader={({ src }) => src}
         src="https://wallpaperaccess.com/full/32048.jpg" 
         width={500}
 				height={500}
